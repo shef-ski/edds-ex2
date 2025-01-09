@@ -4,7 +4,7 @@
 
 Ideally use Python 3.12. 
 
-Create a venv folder in the project directory using ``python -m venv venv``. Then, activate the venv using ``venv\Scripts\activate``. Install all libraries using ``pip install -r requirements.txt``. Optional: run ``python -m ipykernel install --user --name=myenv --display-name="jupyter edds"`` to set a kernel for Jupyter.
+Create a venv folder in the project directory using ``python -m venv venv``. Then, activate the venv using ``venv\Scripts\activate``. Install all libraries using ``pip install -r requirements.txt``. Optional: run ``python -m ipykernel install --user --name=myenv --display-name="jupyter edds"`` to set a kernel for Jupyter. Then, just enter ``jupyter lab`` in the terminal to launch Jupter lab (make sure to have venv activated and select ``jupyter edds`` in Jupyter).
 
 ### Links
 
