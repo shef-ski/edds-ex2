@@ -58,9 +58,9 @@ def get_keywords_from_xml(MESH_XML_FILE: str):
         # Check each tree number for whether it starts with C12 or C13
         for tn in tree_numbers:
             tn_text = tn.text.strip()
-            if tn_text.startswith("C12.200"):  # C12.200 is the precise code for C12
+            if tn_text.startswith("C12"):
                 c12_terms.add(descriptor_name)
-            if tn_text.startswith("C12.050"):  # C12.050 is the precise code for C13
+            if tn_text.startswith("C13"):
                 c13_terms.add(descriptor_name)
 
     return c12_terms, c13_terms
